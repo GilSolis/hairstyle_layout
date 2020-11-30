@@ -18,3 +18,92 @@
 body {
   font-family: "Mulish", sans-serif;
 }
+
+header {
+  height: 50px;
+  width: 100%;
+  border-bottom: 1px solid rgba(119, 119, 119, 0.58);
+}
+
+.navbar {
+  height: 50px;
+  width: 90%;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 0 5%;
+}
+
+.hero {
+  height: 88vh;
+  width: 100%;
+  position: relative;
+  background: url(../images/salon-main-img.jpg) center no-repeat;
+  background-size: 100%;
+}
+
+.features,
+.momentum,
+.custom,
+.promotion {
+  height: 50vh;
+  width: 80%;
+  margin-left: 10%;
+  clear: both;
+}
+
+.custom {
+  margin-left: 20%;
+}
+
+.momentum-background {
+  background: rgb(243, 244, 246);
+  height: 50vh;
+}
+
+.lookbook {
+  height: 100vh;
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+nav * {
+  padding: 0;
+  margin: 0;
+}
+
+.nav-logo,
+.nav-agenda,
+.nav-menu {
+  float: left;
+  margin-top: 15%;
+}
+
+.nav-logo,
+.nav-agenda {
+  width: 10%;
+}
+.nav-menu {
+  width: 80%;
+}
+
+.nav-menu ul {
+  margin-left: 15%;
+  width: 100%;
+}
+
+.nav-menu li {
+  display: inline-block;
+  padding-right: 3%;
+}
+
+.nav-menu li a {
+  width: 80%;
+  text-decoration: none;
+}
+
+.nav-agenda {
+  padding-left: 5%;
+}
