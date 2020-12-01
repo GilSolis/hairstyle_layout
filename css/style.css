@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 .clearfix:after {
@@ -78,7 +80,7 @@ nav * {
 .nav-agenda,
 .nav-menu {
   float: left;
-  margin-top: 15%;
+  margin-top: 15px;
 }
 
 .nav-logo,
@@ -108,7 +110,7 @@ nav * {
   padding-left: 5%;
 }
 
-hero * {
+.hero * {
   margin: 0;
   padding: 0;
 }
@@ -270,4 +272,88 @@ hero * {
   height: 250px;
   margin: 0 auto;
   position: relative;
+}
+
+.promotion-text h2,
+.promotion-text h1,
+.promotion-text button {
+  position: absolute;
+}
+
+.promotion-text h2 {
+  top: 12%;
+  font-size: 1.2rem;
+  left: 5%;
+}
+
+.promotion-text h1 {
+  top: 25%;
+  font-size: 1.8rem;
+  left: 5%;
+}
+
+.promotion-text button {
+  top: 65%;
+  left: 5%;
+  color: rgb(255, 255, 255);
+  background: rgb(0, 0, 0);
+  padding: 15px;
+  font-size: 0.8rem;
+}
+
+.lookbook {
+  margin-left: 3%;
+}
+
+.lookbook-text {
+  text-align: center;
+  margin-bottom: 5%;
+}
+.lookbook-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.lookbook-box {
+  float: left;
+  width: 32%;
+  height: 100px;
+  background: black;
+  margin: 0.5%;
+}
+
+.one {
+  height: 25vh;
+  background: url(../images/hair-one.jfif) center;
+  background-size: cover;
+}
+
+.two {
+  height: 50vh;
+  background: url(../images/hair-two.jfif) center;
+  background-size: cover;
+}
+.three {
+  height: 25vh;
+  background: url(../images/hair-three.jfif) center;
+  background-size: cover;
+}
+.four {
+  clear: both;
+  margin-top: -24vh;
+  height: 50vh;
+  background: url(../images/hair-four.jfif) center;
+  background-size: cover;
+}
+.five {
+  height: 25.5vh;
+
+  background: url(../images/hair-five.jfif) center;
+  background-size: cover;
+}
+.six {
+  margin-top: -24vh;
+  height: 50vh;
+  background: url(../images/hair-six.jfif) center;
+  background-size: cover;
 }
